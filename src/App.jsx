@@ -1,11 +1,5 @@
 // react-router-dom 
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  RouterProvider,
-  Route,
-  NavLink
-} from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, } from 'react-router-dom';
 
 // pages 
 import Home from './pages/Home';
@@ -23,26 +17,53 @@ import ContactLayout from './layout/ContactLayout';
 import ArticlsLayout from './layout/ArticlsLayout';
 
 function App() {
-  const routes = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path='/' element={<MainLayout />}>
-        <Route index element={<Home />} />
-        <Route path='contact' element={<ContactLayout />}>
-          <Route path='faq' element={<Faq />} />
-          <Route path='form' element={<Form />} />
-        </Route>
-        <Route path='article' element={<ArticlsLayout />}>
-          <Route index element={<Article />} />
-        </Route>
-        {/* Page not found */}
-        <Route path="*" element={<PageNotFound />} />
-      </Route>
-    )
-  );
+
+
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <MainLayout />,
+      children: [
+        {
+          index: true,
+          element: <Home />
+        },
+        {
+          path: 'contact',
+          element: <ContactLayout />,
+          children: [
+            {
+              path: 'faq',
+              element: <Faq />
+            },
+            {
+              path: 'form',
+              element: <Form />
+            }
+          ]
+        },
+        {
+          path: "article",
+          element: <ArticlsLayout />,
+          children: [
+            {
+              index: true,
+              element: <Article />
+            }
+          ]
+        },
+        {
+          path: '*',
+          element: <PageNotFound />
+        }
+      ]
+    }
+  ])
+
 
   return (
     <div className='App'>
-      <RouterProvider router={routes} />
+      <RouterProvider router={router} />
     </div>
   );
 }

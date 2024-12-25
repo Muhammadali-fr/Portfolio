@@ -2,7 +2,6 @@ import { useFetch } from "../../hooks/UseFetch"
 import { NavLink } from "react-router-dom";
 
 function Article() {
-
     const { data: articles, isPending, error } = useFetch('http://localhost:3000/articles');
 
     return (
