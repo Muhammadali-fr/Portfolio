@@ -2,6 +2,7 @@ import React from 'react';
 import { FaBars } from "react-icons/fa6";
 import Hero from '../components/Hero';
 import { FiGithub } from "react-icons/fi";
+import MyWorks from '../components/MyWorks';
 
 // pages 
 
@@ -19,9 +20,9 @@ function MainLayout() {
                         <li className="dark:bg-gray-700 dark:text-white text-black py-2 px-5 rounded cursor-pointer dark:hover:bg-gray-500 hover:bg-gray-300 bg-white">Services</li>
                         <li className="dark:bg-gray-700 dark:text-white text-black py-2 px-5 rounded cursor-pointer dark:hover:bg-gray-500 hover:bg-gray-300 bg-white">Contact</li>
                     </ul>
-        
-                    <a className='p-3 text-xl bg-white rounded hover:bg-gray-300 dark:bg-gray-700 dark:text-white' href="https://github.com/Muhammadali-fr"  target="_blank" rel="noopener noreferrer">
-                        <FiGithub/>
+
+                    <a className='p-3 text-xl bg-white rounded hover:bg-gray-300 dark:bg-gray-700 dark:text-white' href="https://github.com/Muhammadali-fr" target="_blank" rel="noopener noreferrer">
+                        <FiGithub />
                     </a>
 
                     <div className="md:hidden text-xl dark:text-white">
@@ -32,8 +33,8 @@ function MainLayout() {
                         <FaBars />
                     </div>
                 </nav>
-
-                <Hero/>
+                <Hero />
+                <MyWorks/>
             </div>
         </div>
     );
