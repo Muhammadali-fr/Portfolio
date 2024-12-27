@@ -1,6 +1,9 @@
 import { Outlet } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
 
 import Navbar from '../components/Navbar';
+
+
 
 // pages 
 
@@ -12,6 +15,7 @@ function MainLayout() {
             <div className="container mx-auto min-h-screen bg-white dark:bg-gray-900">
                 <Navbar />
                 <Outlet />
+                <Toaster/>
             </div>
         </div>
     );

@@ -14,10 +14,12 @@ function Navbar() {
                 <a href="#work">
                     <li className="dark:bg-gray-700 dark:text-white text-black py-2 px-5 rounded cursor-pointer dark:hover:bg-gray-500 hover:bg-gray-300 bg-white">Work</li>
                 </a>
-               <a href="#skills">
-               <li className="dark:bg-gray-700 dark:text-white text-black py-2 px-5 rounded cursor-pointer dark:hover:bg-gray-500 hover:bg-gray-300 bg-white">Skills</li>
-               </a>
-                <li className="dark:bg-gray-700 dark:text-white text-black py-2 px-5 rounded cursor-pointer dark:hover:bg-gray-500 hover:bg-gray-300 bg-white">Contact</li>
+                <a href="#skills">
+                    <li className="dark:bg-gray-700 dark:text-white text-black py-2 px-5 rounded cursor-pointer dark:hover:bg-gray-500 hover:bg-gray-300 bg-white">Skills</li>
+                </a>
+                <a href="#contact">
+                    <li className="dark:bg-gray-700 dark:text-white text-black py-2 px-5 rounded cursor-pointer dark:hover:bg-gray-500 hover:bg-gray-300 bg-white">Contact</li>
+                </a>
             </ul>
 
             <a className='p-3 text-xl bg-white rounded hover:bg-gray-300 dark:bg-gray-700 dark:text-white' href="https://github.com/Muhammadali-fr" target="_blank" rel="noopener noreferrer">
