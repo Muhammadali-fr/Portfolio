@@ -7,39 +7,7 @@ export const myWork = [
     netlifyLink: 'https://benevolent-croissant-7f2247.netlify.app/',
     gitHubLink: 'https://github.com/Muhammadali-fr/Delizi'
   },
-  {
-    name: "Delizi",
-    image: delizImage,
-    netlifyLink: 'https://benevolent-croissant-7f2247.netlify.app/',
-    gitHubLink: 'https://github.com/Muhammadali-fr/Delizi'
-  },
-  {
-    name: "Delizi",
-    image: delizImage,
-    netlifyLink: 'https://benevolent-croissant-7f2247.netlify.app/',
-    gitHubLink: 'https://github.com/Muhammadali-fr/Delizi'
-  },
-  {
-    name: "Delizi",
-    image: delizImage,
-    netlifyLink: 'https://benevolent-croissant-7f2247.netlify.app/',
-    gitHubLink: 'https://github.com/Muhammadali-fr/Delizi'
-  },
-  {
-    name: "Delizi",
-    image: delizImage,
-    netlifyLink: 'https://benevolent-croissant-7f2247.netlify.app/',
-    gitHubLink: 'https://github.com/Muhammadali-fr/Delizi'
-  },  {
-    name: "Delizi",
-    image: delizImage,
-    netlifyLink: 'https://benevolent-croissant-7f2247.netlify.app/',
-    gitHubLink: 'https://github.com/Muhammadali-fr/Delizi'
-  },
-  
 ];
-
-
 
 // logos 
 import htmlLogo from './assets/html.svg';
@@ -50,6 +18,7 @@ import tailwindLogo from './assets/tailwind.svg';
 import gitLogo from './assets/git.svg';
 import gitHubLogo from './assets/github.svg';
 import bootstrapLogo from './assets/bootstrap.svg';
+import sassLogo from './assets/sass.svg';
 
 export const skills = [
   {
@@ -83,6 +52,10 @@ export const skills = [
   {
     name: 'Bootstrap',
     image: bootstrapLogo,
+  },
+  {
+    name: 'Sass',
+    image: sassLogo,
   },
 ];
 
