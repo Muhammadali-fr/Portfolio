@@ -25,7 +25,7 @@ function MyWorks() {
                             key={index}
                         >
                             <img
-                                className="w-full rounded border-gray-200 object-cover"
+                                className="w-full rounded border-gray-200 object-cover min-h-[70%]"
                                 src={item.image}
                                 alt={item.name}
                             />

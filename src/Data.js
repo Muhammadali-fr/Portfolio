@@ -1,4 +1,5 @@
 import delizImage from "./assets/delizi.png";
+import carScreamImage from "./assets/car-scream.png";
 
 export const myWork = [
   {
@@ -6,6 +7,12 @@ export const myWork = [
     image: delizImage,
     netlifyLink: "https://benevolent-croissant-7f2247.netlify.app/",
     gitHubLink: "https://github.com/Muhammadali-fr/Delizi",
+  },
+  {
+    name: "Car-scream",
+    image: carScreamImage,
+    netlifyLink: "https://inquisitive-kelpie-c7c2ed.netlify.app/",
+    gitHubLink: "https://github.com/Muhammadali-fr/Car-scream",
   },
 ];
 

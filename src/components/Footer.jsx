@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className=" text-gray-700 py-10">
+        <footer className=" text-gray-700 py-10 dark:text-gray-100">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Quick Links Section */}
                 <div>
@@ -21,7 +21,7 @@ const Footer = () => {
                                 href="#skills"
                                 className="text-sm hover:underline hover:text-gray-500"
                             >
-                               My skills
+                                My skills
                             </a>
                         </li>
                         <li>
