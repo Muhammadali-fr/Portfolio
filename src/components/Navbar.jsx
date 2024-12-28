@@ -76,10 +76,9 @@ function Navbar() {
                 <div className="h-screen dark:bg-black dark:text-white p-6 flex flex-col justify-between shadow-lg">
                     <div>
                         <div className="text-center">
-                            <p className="text-3xl font-bold">Jamolov Muhammadali</p>
+                            <p className="text-xl font-bold">Jamolov Muhammadali</p>
                             <p className="text-sm text-gray-400 mt-2">
-                                Front-End Developer <br />
-                                {myAge} years old, Uzbek
+                                {myAge} years old.
                             </p>
                         </div>
                         <hr className="my-6 border-gray-700" />
