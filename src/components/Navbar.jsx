@@ -56,7 +56,7 @@ function Navbar() {
                 >
                     <FiGithub />
                 </a>
-                <p className="md:hidden">Muhammadali</p>
+                <p className="md:hidden dark:text-white">Muhammadali</p>
 
                 <button
                     className="md:hidden text-3xl dark:text-white"
