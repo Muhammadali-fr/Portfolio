@@ -4,59 +4,79 @@ export const myWork = [
   {
     name: "Delizi",
     image: delizImage,
-    netlifyLink: 'https://benevolent-croissant-7f2247.netlify.app/',
-    gitHubLink: 'https://github.com/Muhammadali-fr/Delizi'
+    netlifyLink: "https://benevolent-croissant-7f2247.netlify.app/",
+    gitHubLink: "https://github.com/Muhammadali-fr/Delizi",
   },
 ];
 
-// logos 
-import htmlLogo from './assets/html.svg';
-import cssLogo from './assets/css.svg';
-import jsLogo from './assets/js.svg';
-import reactLogo from './assets/react.svg';
-import tailwindLogo from './assets/tailwind.svg';
-import gitLogo from './assets/git.svg';
-import gitHubLogo from './assets/github.svg';
-import bootstrapLogo from './assets/bootstrap.svg';
-import sassLogo from './assets/sass.svg';
+// logos
+import htmlLogo from "./assets/html.svg";
+import cssLogo from "./assets/css.svg";
+import jsLogo from "./assets/js.svg";
+import reactLogo from "./assets/react.svg";
+import tailwindLogo from "./assets/tailwind.svg";
+import gitLogo from "./assets/git.svg";
+import gitHubLogo from "./assets/github.svg";
+import bootstrapLogo from "./assets/bootstrap.svg";
+import sassLogo from "./assets/sass.svg";
+import telegramLogo from "./assets/telegram.svg";
+import instagramLogo from "./assets/instagram.svg";
 
 export const skills = [
   {
-    name: 'HTML',
+    name: "HTML",
     image: htmlLogo,
   },
   {
-    name: 'CSS',
+    name: "CSS",
     image: cssLogo,
   },
   {
-    name: 'JavaScript',
+    name: "JavaScript",
     image: jsLogo,
   },
   {
-    name: 'React',
+    name: "React",
     image: reactLogo,
   },
   {
-    name: 'Tailwind CSS',
+    name: "Tailwind CSS",
     image: tailwindLogo,
   },
   {
-    name: 'Git',
+    name: "Git",
     image: gitLogo,
   },
   {
-    name: 'GitHub',
+    name: "GitHub",
     image: gitHubLogo,
   },
   {
-    name: 'Bootstrap',
+    name: "Bootstrap",
     image: bootstrapLogo,
   },
   {
-    name: 'Sass',
+    name: "Sass",
     image: sassLogo,
   },
 ];
 
-  
+// icons
+
+export const socials = [
+  {
+    name: "Instagram",
+    link: "https://www.instagram.com/mukhamadali.001/",
+    icon: instagramLogo,
+  },
+  {
+    name: "Telegram",
+    link: "https://t.me/Mukhamadali001",
+    icon: telegramLogo,
+  },
+  {
+    name: "Git Hub",
+    link: "https://github.com/Muhammadali-fr",
+    icon: gitHubLogo,
+  },
+];

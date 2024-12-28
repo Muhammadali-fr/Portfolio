@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, TextField, Button, Typography } from "@mui/material";
+import { Box, TextField, Button } from "@mui/material";
 import toast from 'react-hot-toast';
 
 const ContactPage = () => {
@@ -58,11 +58,11 @@ const ContactPage = () => {
     };
 
     return (
-        <div id="contact">
+        <div id="contact" className="p-5">
             <div className="flex items-center justify-center my-10" id='work'>
-                <div className="border-t border-gray-300 flex-grow"></div>
+                <div className="border-t border-gray-300 dark:border-gray-600 flex-grow"></div>
                 <span className="dark:text-gray-300 text-gray-700 text-sm mx-4">Contact me</span>
-                <div className="border-t border-gray-300 flex-grow"></div>
+                <div className="border-t border-gray-300 dark:border-gray-600 flex-grow"></div>
             </div>
             <Box
                 sx={{
@@ -73,10 +73,9 @@ const ContactPage = () => {
                     padding: 4,
                     maxWidth: 600,
                     margin: "0 auto",
-                    backgroundColor: "#f9f9f9",
                     borderRadius: 2,
-                    boxShadow: 3,
                 }}
+                className="bg-gray-100 dark:bg-gray-800 dark:shadow-lg shadow-md p-4 rounded-md"
             >
                 <form onSubmit={handleSubmit} style={{ width: "100%" }}>
                     <TextField
@@ -87,6 +86,38 @@ const ContactPage = () => {
                         margin="normal"
                         value={formData.name}
                         onChange={handleChange}
+                        InputProps={{
+                            style: { color: "black" }, // Default text color
+                            className:
+                                "placeholder-gray-500 dark:placeholder-gray-300 text-black dark:text-white border-black dark:border-white",
+                        }}
+                        InputLabelProps={{
+                            className: "dark:text-gray-300 text-gray-700",
+                        }}
+                        sx={{
+                            "& .MuiOutlinedInput-root": {
+                                "& fieldset": {
+                                    borderColor: "black", // Default border for light mode
+                                },
+                                "&:hover fieldset": {
+                                    borderColor: "black", // Hover border for light mode
+                                },
+                                "&.Mui-focused fieldset": {
+                                    borderColor: "black", // Focused border for light mode
+                                },
+                                "&.dark": {
+                                    "& fieldset": {
+                                        borderColor: "white", // Default border for dark mode
+                                    },
+                                    "&:hover fieldset": {
+                                        borderColor: "white", // Hover border for dark mode
+                                    },
+                                    "&.Mui-focused fieldset": {
+                                        borderColor: "white", // Focused border for dark mode
+                                    },
+                                },
+                            },
+                        }}
                     />
                     <TextField
                         label="Email"
@@ -97,6 +128,14 @@ const ContactPage = () => {
                         margin="normal"
                         value={formData.email}
                         onChange={handleChange}
+                        InputProps={{
+                            style: { color: "black" },
+                            className:
+                                "placeholder-gray-500 dark:placeholder-gray-300 text-black dark:text-white border-black dark:border-white",
+                        }}
+                        InputLabelProps={{
+                            className: "dark:text-gray-300 text-gray-700",
+                        }}
                     />
                     <TextField
                         label="Subject"
@@ -106,6 +145,14 @@ const ContactPage = () => {
                         margin="normal"
                         value={formData.subject}
                         onChange={handleChange}
+                        InputProps={{
+                            style: { color: "black" },
+                            className:
+                                "placeholder-gray-500 dark:placeholder-gray-300 text-black dark:text-white border-black dark:border-white",
+                        }}
+                        InputLabelProps={{
+                            className: "dark:text-gray-300 text-gray-700",
+                        }}
                     />
                     <TextField
                         label="Message"
@@ -117,12 +164,19 @@ const ContactPage = () => {
                         rows={4}
                         value={formData.message}
                         onChange={handleChange}
+                        InputProps={{
+                            style: { color: "black" },
+                            className:
+                                "placeholder-gray-500 dark:placeholder-gray-300 text-black dark:text-white border-black dark:border-white",
+                        }}
+                        InputLabelProps={{
+                            className: "dark:text-gray-300 text-gray-700",
+                        }}
                     />
                     <Button
                         type="submit"
                         variant="contained"
-                        color="primary"
-                        sx={{ mt: 2, width: "100%" }}
+                        className="dark:bg-gray-700 bg-gray-800 text-white hover:dark:bg-gray-600 hover:bg-gray-700 mt-4 w-full"
                     >
                         Send Message
                     </Button>
