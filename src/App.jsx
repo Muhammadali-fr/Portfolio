@@ -5,6 +5,8 @@ import './index.css'
 
 // layouts/
 import MianLayout from './layout/MianLayout';
+
+// pages
 import Home from './pages/Home';
 
 // component and pages 
