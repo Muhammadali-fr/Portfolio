@@ -19,8 +19,8 @@ function Hero() {
                     I specialize in building responsive and interactive websites using modern frameworks like React and Node.js.
                 </p>
                 <a
-                    href="#portfolio"
-                    className="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300"
+                    href="#work"
+                    className="mt-6 bg-violet-500 hover:bg-violet-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300"
                 >
                     View My Work
                 </a>

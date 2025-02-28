@@ -49,7 +49,7 @@ function Navbar() {
                 </ul>
 
                 <a
-                    className="p-3 text-xl bg-white rounded hover:bg-gray-300 dark:bg-gray-700 dark:text-white"
+                    className="p-3 text-xl bg-white rounded hover:bg-gray-300 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-500"
                     href="https://github.com/Muhammadali-fr"
                     target="_blank"
                     rel="noopener noreferrer"
