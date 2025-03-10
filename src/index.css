@@ -1,5 +1,11 @@
-.hero{
-    background-image: url(./assets/hero-back.jpg);
+.bg-img{
+    background-image: url(./assets/bg.jpeg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
+}
+
+.active{
+    color: red;
+    background-color: red;
+    font-size: 50px;
 }

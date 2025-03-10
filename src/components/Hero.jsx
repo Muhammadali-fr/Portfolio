@@ -1,35 +1,22 @@
-import UserImg from '../assets/user.jpg';
+import MyPic from "../assets/my-pic.jpg"
 
 function Hero() {
+
+    const date = new Date();
+    const nowYear = date.getFullYear();
+    const myBirth = nowYear - 2007;
+
     return (
-        <div
-            id='hero'
-            className="hero w-full bg-gray-100 text-gray-800 rounded-lg flex flex-col-reverse items-center justify-between p-6 md:flex-row dark:bg-gray-600 dark:text-white gap-6 my-5 shadow-lg"
-            style={{
-                backgroundImage: "url('https://source.unsplash.com/random/1920x1080')", // Replace with your desired background image
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-            }}
-        >
-            <div className="md:w-1/2 flex flex-col items-center md:items-start">
-                <h1 className="text-4xl font-bold text-center md:text-left">
-                    Hi, I'm Muhammadali, <br /> a Web Developer
-                </h1>
-                <p className="text-lg text-center md:text-left mt-4">
-                    I specialize in building responsive and interactive websites using modern frameworks like React and Node.js.
-                </p>
-                <a
-                    href="#work"
-                    className="mt-6 bg-violet-500 hover:bg-violet-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300"
-                >
-                    View My Work
-                </a>
+        <div id='hero' className='container mx-auto '>
+            <div className='my-5'>
+                <p className='text-3xl font-bold'>Jamolov Muhammadali</p>
+                <p className='text-sm text-gray-700'>Frontend developer, {myBirth} year old.</p>
             </div>
-            <img
-                src={UserImg}
-                alt="user img"
-                className="w-[60%] mx-auto md:w-1/3 rounded-full border-4 border-white shadow-lg"
-            />
+
+            <div className='bg-img rounded-lg bg-black h-96 flex items-center justify-between px-10'>
+                <p className='text-5xl font-bold text-white w-[500px]'>Success is not final, failure is not fatal.</p>
+                <img className="w-64 h-64 object-cover rounded-full " src={MyPic} alt="my pic" />
+            </div>
         </div>
     );
 }
