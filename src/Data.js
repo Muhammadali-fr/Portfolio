@@ -5,12 +5,15 @@ export const myWork = [
   {
     name: "Delizi",
     image: delizImage,
+    description: "This web site was created while learning react.",
     netlifyLink: "https://benevolent-croissant-7f2247.netlify.app/",
     gitHubLink: "https://github.com/Muhammadali-fr/Delizi",
   },
   {
     name: "Car-scream",
     image: carScreamImage,
+    description:
+      "The website wasn’t finished because I only wanted to learn about React Router.",
     netlifyLink: "https://inquisitive-kelpie-c7c2ed.netlify.app/",
     gitHubLink: "https://github.com/Muhammadali-fr/Car-scream",
   },

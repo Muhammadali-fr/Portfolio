@@ -10,11 +10,11 @@ const AboutMe = () => {
             </div>
             <section className="dark:text:white p-5">
                 <p className="text-lg leading-relaxed max-w-[400px] text-center mx-auto">
-                I am Muhammadali Jamolov, born in 2007, living in Uzbekistan.
+                    I am Muhammadali Jamolov, born in 2007, living in Uzbekistan.
                     <br />
-                    I am proficient in React, JavaScript, HTML, and CSS. Currently, I am learning Node.js and Ruby on Rails while exploring C#.
+                    I am proficient in React, JavaScript, HTML, and CSS. Currently, I am learning Node.js.
                     <br />
-                    My goal is to contribute to digital growth by creating modern and functional web projects.
+                    My goal is to become senior devoloper.
                 </p>
             </section>
 

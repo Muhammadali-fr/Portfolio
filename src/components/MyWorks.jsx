@@ -1,7 +1,7 @@
 // import React from 'react' 
 
 // data 
-import {myWork} from '../Data'
+import { myWork } from '../Data'
 
 // icons 
 import { IoLinkOutline } from "react-icons/io5";
@@ -30,6 +30,7 @@ function MyWorks() {
                                 alt={item.name}
                             />
                             <strong className="block text-xl lg:text-2xl m-3">{item.name}</strong>
+                            <p>{item.description}</p>
                             <div className="m-3 flex items-center justify-between">
                                 <a
                                     target="_blank"

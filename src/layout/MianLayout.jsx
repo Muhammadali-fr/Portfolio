@@ -15,10 +15,14 @@ function MainLayout() {
     return (
         <div className="w-full bg-white dark:bg-gray-900">
             <div className="container mx-auto min-h-screen bg-white dark:bg-gray-900">
-                <Navbar/>
-                <Outlet/>
-                <Toaster />
-                <Footer/>
+                <Navbar />
+                <Outlet />
+                {/* <Toaster /> */}
+                <Toaster
+                    position="bottom-right"
+                    reverseOrder={false}
+                />
+                <Footer />
             </div>
         </div>
     );
