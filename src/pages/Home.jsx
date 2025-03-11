@@ -13,7 +13,7 @@ function Home() {
 
 
     return (
-        <div>
+        <div className='space-y-10'>
             <Hero/>
             <AboutMe/>
             <MyWorks />

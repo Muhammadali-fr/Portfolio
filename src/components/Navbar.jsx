@@ -21,8 +21,8 @@ function Navbar() {
     return (
         <>
             {/* Navbar */}
-            <div className="w-full border-b border-gray-200 sticky top-0 backdrop-blur-lg">
-                <nav className="container mx-auto flex justify-between items-center py-2">
+            <div className="w-full border-b border-gray-200 sticky top-0 backdrop-blur-lg bg-white/70 z-10">
+                <nav className="sm:container w-[90%]  mx-auto flex justify-between items-center py-2">
                     <ul className="hidden md:flex space-x-6">
                         <a href="#hero">
                             <li className="text-black font-bold py-1 px-5 rounded cursor-pointer hover:bg-gray-100 bg-white">
