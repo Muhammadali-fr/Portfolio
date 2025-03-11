@@ -7,7 +7,7 @@ function Hero() {
     const myBirth = nowYear - 2007;
 
     return (
-        <div id='hero' className='sm:container w-[90%] mx-auto'>
+        <div id='hero' className='md:w-[943px] max-w-[90%] mx-auto'>
             <div className='my-5'>
                 <p className='text-3xl font-bold'>Jamolov Muhammadali</p>
                 <p className='text-sm text-gray-700'>Frontend developer, {myBirth} year old.</p>

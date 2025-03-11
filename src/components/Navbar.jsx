@@ -21,33 +21,33 @@ function Navbar() {
     return (
         <>
             {/* Navbar */}
-            <div className="w-full border-b border-gray-200 sticky top-0 backdrop-blur-lg bg-white/70 z-10">
-                <nav className="sm:container w-[90%]  mx-auto flex justify-between items-center py-2">
+            <div className="w-full border-b border-gray-200 sticky top-0 backdrop-blur-lg bg-white/30 z-10">
+                <nav className="sm:w-[943px] max-w-[90%]  mx-auto flex justify-between items-center py-2">
                     <ul className="hidden md:flex space-x-6">
-                        <a href="#hero">
-                            <li className="text-black font-bold py-1 px-5 rounded cursor-pointer hover:bg-gray-100 bg-white">
+                        <a href="#">
+                            <li className="text-black font-bold py-1 px-5 rounded cursor-pointer bg-[#ebebeb] hover:bg-gray-200">
                                 Home
                             </li>
                         </a>
                         <a href="#work">
-                            <li className="text-black font-bold py-1 px-5 rounded cursor-pointer hover:bg-gray-100 bg-white">
+                            <li className="text-black font-bold py-1 px-5 rounded cursor-pointer  bg-[#ebebeb] hover:bg-gray-200">
                                 Work
                             </li>
                         </a>
                         <a href="#skills">
-                            <li className="text-black font-bold py-1 px-5 rounded cursor-pointer hover:bg-gray-100 bg-white">
+                            <li className="text-black font-bold py-1 px-5 rounded cursor-pointer  bg-[#ebebeb] hover:bg-gray-200">
                                 Skills
                             </li>
                         </a>
                         <a href="#contact">
-                            <li className="text-black font-bold py-1 px-5 rounded cursor-pointer hover:bg-gray-100 bg-white">
+                            <li className="text-black font-bold py-1 px-5 rounded cursor-pointer  bg-[#ebebeb] hover:bg-gray-200">
                                 Contact
                             </li>
                         </a>
                     </ul>
 
                     <a
-                        className="p-2 text-xl bg-white rounded hover:bg-gray-300"
+                        className="p-2 text-xl bg-[#ebebeb] rounded hover:bg-gray-200"
                         href="https://github.com/Muhammadali-fr"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -79,7 +79,7 @@ function Navbar() {
 
                         <ul className="space-y-4">
                             <li>
-                                <a href="#navbar" onClick={closeSidebar} className="block py-3 px-4 rounded-lg text-lg hover:bg-gray-700 hover:text-white transition-all duration-300">
+                                <a href="#" onClick={closeSidebar} className="block py-3 px-4 rounded-lg text-lg hover:bg-gray-700 hover:text-white transition-all duration-300">
                                     Home
                                 </a>
                             </li>

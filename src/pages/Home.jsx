@@ -14,10 +14,10 @@ function Home() {
 
     return (
         <div className='space-y-10'>
-            <Hero/>
-            <AboutMe/>
-            <MyWorks />
+            <Hero />
+            <AboutMe />
             <Skills />
+            <MyWorks />
             <Contact />
             <FindMe />
         </div>

@@ -1,8 +1,11 @@
-import React from "react";
 
 const Footer = () => {
+
+    let date = new Date();
+    let year = date.getFullYear();
+
     return (
-        <footer className=" text-gray-700 py-10 dark:text-gray-100">
+        <footer className=" max-w-[90%] sm:w-[943px] mx-auto text-gray-700 py-10">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Quick Links Section */}
                 <div>
@@ -71,7 +74,7 @@ const Footer = () => {
 
             {/* Footer Bottom */}
             <div className="border-t border-gray-400 mt-8 pt-4 text-center text-sm">
-                &copy; 2024 Muhammadali Jamolov. All Rights Reserved.
+                &copy; {year} Muhammadali Jamolov. All Rights Reserved.
             </div>
         </footer>
     );

@@ -58,12 +58,8 @@ const ContactPage = () => {
     };
 
     return (
-        <div id="contact" className="p-5">
-            <div className="flex items-center justify-center my-10" id='work'>
-                <div className="border-t border-gray-300 dark:border-gray-600 flex-grow"></div>
-                <span className="dark:text-gray-300 text-gray-700 text-sm mx-4">Contact me</span>
-                <div className="border-t border-gray-300 dark:border-gray-600 flex-grow"></div>
-            </div>
+        <div id="contact" className="flex flex-col gap-5 max-w-[90%] mx-auto">
+            <p className="text-center text-2xl font-bold">Contact me</p>
             <Box
                 sx={{
                     display: "flex",
@@ -75,10 +71,11 @@ const ContactPage = () => {
                     margin: "0 auto",
                     borderRadius: 2,
                 }}
-                className="bg-gray-100 dark:bg-gray-800 dark:shadow-lg shadow-md p-4 rounded-md"
+                className="bg-gray-100 shadow-md rounded-md"
             >
                 <form onSubmit={handleSubmit} style={{ width: "100%" }}>
                     <TextField
+                        required
                         label="Name"
                         name="name"
                         variant="outlined"
@@ -89,10 +86,10 @@ const ContactPage = () => {
                         InputProps={{
                             style: { color: "black" }, // Default text color
                             className:
-                                "placeholder-gray-500 dark:placeholder-gray-300 text-black dark:text-white border-black dark:border-white",
+                                "placeholder-gray-500  text-black border-black",
                         }}
                         InputLabelProps={{
-                            className: "dark:text-gray-300 text-gray-700",
+                            className: " text-gray-700",
                         }}
                         sx={{
                             "& .MuiOutlinedInput-root": {
@@ -104,22 +101,12 @@ const ContactPage = () => {
                                 },
                                 "&.Mui-focused fieldset": {
                                     borderColor: "black", // Focused border for light mode
-                                },
-                                "&.dark": {
-                                    "& fieldset": {
-                                        borderColor: "white", // Default border for dark mode
-                                    },
-                                    "&:hover fieldset": {
-                                        borderColor: "white", // Hover border for dark mode
-                                    },
-                                    "&.Mui-focused fieldset": {
-                                        borderColor: "white", // Focused border for dark mode
-                                    },
-                                },
+                                }
                             },
                         }}
                     />
                     <TextField
+                        required
                         label="Email"
                         name="email"
                         type="email"
@@ -131,13 +118,14 @@ const ContactPage = () => {
                         InputProps={{
                             style: { color: "black" },
                             className:
-                                "placeholder-gray-500 dark:placeholder-gray-300 text-black dark:text-white border-black dark:border-white",
+                                "placeholder-gray-500  text-black  border-black ",
                         }}
                         InputLabelProps={{
-                            className: "dark:text-gray-300 text-gray-700",
+                            className: " text-gray-700",
                         }}
                     />
                     <TextField
+                        required
                         label="Subject"
                         name="subject"
                         variant="outlined"
@@ -148,13 +136,14 @@ const ContactPage = () => {
                         InputProps={{
                             style: { color: "black" },
                             className:
-                                "placeholder-gray-500 dark:placeholder-gray-300 text-black dark:text-white border-black dark:border-white",
+                                "placeholder-gray-500 text-black  border-black",
                         }}
                         InputLabelProps={{
-                            className: "dark:text-gray-300 text-gray-700",
+                            className: " text-gray-700",
                         }}
                     />
                     <TextField
+                        required
                         label="Message"
                         name="message"
                         variant="outlined"
@@ -167,16 +156,16 @@ const ContactPage = () => {
                         InputProps={{
                             style: { color: "black" },
                             className:
-                                "placeholder-gray-500 dark:placeholder-gray-300 text-black dark:text-white border-black dark:border-white",
+                                "placeholder-gray-500 text-black  border-black",
                         }}
                         InputLabelProps={{
-                            className: "dark:text-gray-300 text-gray-700",
+                            className: " text-gray-700",
                         }}
                     />
                     <Button
                         type="submit"
                         variant="contained"
-                        className="dark:bg-gray-700 bg-gray-800 text-white hover:dark:bg-gray-600 hover:bg-gray-700 mt-4 w-full"
+                        className=" bg-gray-800 text-white hover:bg-gray-700 mt-4 w-full"
                     >
                         Send Message
                     </Button>

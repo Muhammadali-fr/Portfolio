@@ -13,8 +13,8 @@ import Footer from '../components/Footer';
 function MainLayout() {
 
     return (
-        <div className="w-full bg-white dark:bg-gray-900">
-            <div className="min-h-screen bg-white dark:bg-gray-900">
+        <div className="w-full bg-white">
+            <div className="min-h-screen bg-white ">
                 <Navbar />
                 <Outlet />
                 {/* <Toaster /> */}
