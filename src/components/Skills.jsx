@@ -14,14 +14,14 @@ const Skills = () => {
                         <img
                             src={item.image}
                             alt={item.name}
-                            className="w-20 h-20 mx-auto "
+                            className="w-25 h-20 mx-auto "
                         />
                         <strong className="text-center">
                             {item.name}
                         </strong>
                         {item.learning && (<p className="text-white bg-gray-700 rounded-3xl text-center px-5">learning...</p>)}
                     </div>
-                ))} 
+                ))}
             </div>
         </div>
     );

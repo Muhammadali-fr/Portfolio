@@ -71,9 +71,9 @@ const ContactPage = () => {
                     margin: "0 auto",
                     borderRadius: 2,
                 }}
-                className="bg-gray-100 shadow-md rounded-md"
+                className="bg-white rounded-md"
             >
-                <form onSubmit={handleSubmit} style={{ width: "100%" }}>
+                <form onSubmit={handleSubmit}>
                     <TextField
                         required
                         label="Name"
@@ -83,27 +83,7 @@ const ContactPage = () => {
                         margin="normal"
                         value={formData.name}
                         onChange={handleChange}
-                        InputProps={{
-                            style: { color: "black" }, // Default text color
-                            className:
-                                "placeholder-gray-500  text-black border-black",
-                        }}
-                        InputLabelProps={{
-                            className: " text-gray-700",
-                        }}
-                        sx={{
-                            "& .MuiOutlinedInput-root": {
-                                "& fieldset": {
-                                    borderColor: "black", // Default border for light mode
-                                },
-                                "&:hover fieldset": {
-                                    borderColor: "black", // Hover border for light mode
-                                },
-                                "&.Mui-focused fieldset": {
-                                    borderColor: "black", // Focused border for light mode
-                                }
-                            },
-                        }}
+                        className="bg-[#ebebeb]"
                     />
                     <TextField
                         required
@@ -115,14 +95,7 @@ const ContactPage = () => {
                         margin="normal"
                         value={formData.email}
                         onChange={handleChange}
-                        InputProps={{
-                            style: { color: "black" },
-                            className:
-                                "placeholder-gray-500  text-black  border-black ",
-                        }}
-                        InputLabelProps={{
-                            className: " text-gray-700",
-                        }}
+                        className="bg-[#ebebeb]"
                     />
                     <TextField
                         required
@@ -133,14 +106,7 @@ const ContactPage = () => {
                         margin="normal"
                         value={formData.subject}
                         onChange={handleChange}
-                        InputProps={{
-                            style: { color: "black" },
-                            className:
-                                "placeholder-gray-500 text-black  border-black",
-                        }}
-                        InputLabelProps={{
-                            className: " text-gray-700",
-                        }}
+                        className="bg-[#ebebeb]"
                     />
                     <TextField
                         required
@@ -153,19 +119,12 @@ const ContactPage = () => {
                         rows={4}
                         value={formData.message}
                         onChange={handleChange}
-                        InputProps={{
-                            style: { color: "black" },
-                            className:
-                                "placeholder-gray-500 text-black  border-black",
-                        }}
-                        InputLabelProps={{
-                            className: " text-gray-700",
-                        }}
+                        className="bg-[#ebebeb]"
                     />
                     <Button
                         type="submit"
                         variant="contained"
-                        className=" bg-gray-800 text-white hover:bg-gray-700 mt-4 w-full"
+                        className=" bg-[#ebebeb] w-full"
                     >
                         Send Message
                     </Button>

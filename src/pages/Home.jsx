@@ -13,7 +13,7 @@ function Home() {
 
 
     return (
-        <div className='space-y-10'>
+        <div className='space-y-10 wrap'>
             <Hero />
             <AboutMe />
             <Skills />
