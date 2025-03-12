@@ -58,7 +58,7 @@ const ContactPage = () => {
     };
 
     return (
-        <div id="contact" className="flex flex-col gap-5 max-w-[90%] mx-auto">
+        <div id="contact" className="flex flex-col gap-5 max-w-[100%] mx-auto">
             <p className="text-center text-2xl font-bold">Contact me</p>
             <Box
                 sx={{
@@ -66,12 +66,10 @@ const ContactPage = () => {
                     flexDirection: "column",
                     alignItems: "center",
                     justifyContent: "center",
-                    padding: 4,
-                    maxWidth: 600,
                     margin: "0 auto",
                     borderRadius: 2,
                 }}
-                className="bg-white rounded-md"
+                className=" rounded-md w-[90%] sm:w-[600px] bg-white"
             >
                 <form onSubmit={handleSubmit}>
                     <TextField
