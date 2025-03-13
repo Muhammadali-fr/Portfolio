@@ -25,29 +25,29 @@ function Navbar() {
                 <nav className="sm:w-[943px] max-w-[90%]  mx-auto flex justify-between items-center py-2">
                     <ul className="hidden md:flex space-x-6">
                         <a href="#">
-                            <li className="text-black font-bold py-1 px-5 rounded cursor-pointer bg-[#ebebeb] hover:bg-gray-200">
+                            <li className="text-black font-bold py-1 rounded cursor-pointe">
                                 Home
                             </li>
                         </a>
                         <a href="#work">
-                            <li className="text-black font-bold py-1 px-5 rounded cursor-pointer  bg-[#ebebeb] hover:bg-gray-200">
+                            <li className="text-black font-bold py-1 rounded cursor-pointer">
                                 Work
                             </li>
                         </a>
                         <a href="#skills">
-                            <li className="text-black font-bold py-1 px-5 rounded cursor-pointer  bg-[#ebebeb] hover:bg-gray-200">
+                            <li className="text-black font-bold py-1 rounded cursor-pointer">
                                 Skills
                             </li>
                         </a>
                         <a href="#contact">
-                            <li className="text-black font-bold py-1 px-5 rounded cursor-pointer  bg-[#ebebeb] hover:bg-gray-200">
+                            <li className="text-black font-bold py-1 rounded cursor-pointer">
                                 Contact
                             </li>
                         </a>
                     </ul>
 
                     <a
-                        className="p-2 text-xl bg-[#ebebeb] rounded hover:bg-gray-200"
+                        className="p-2 text-xl hover:bg-[#ebebeb]"
                         href="https://github.com/Muhammadali-fr"
                         target="_blank"
                         rel="noopener noreferrer"
