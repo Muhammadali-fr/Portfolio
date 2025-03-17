@@ -5,7 +5,7 @@ import HandShake from "../assets/handshake.png"
 
 const Parter = () => {
 
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
 
     const handleHand = () => {
         setOpen(!open);
