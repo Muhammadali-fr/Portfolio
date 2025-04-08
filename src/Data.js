@@ -11,6 +11,7 @@ export const myWork = [
     description: "This web site was created while learning react.",
     netlifyLink: "https://benevolent-croissant-7f2247.netlify.app/",
     gitHubLink: "https://github.com/Muhammadali-fr/Delizi",
+    creating: false,
   },
   {
     name: "Car-scream",
@@ -19,6 +20,7 @@ export const myWork = [
       "The website wasn’t finished because I only wanted to learn about React Router.",
     netlifyLink: "https://inquisitive-kelpie-c7c2ed.netlify.app/",
     gitHubLink: "https://github.com/Muhammadali-fr/Car-scream",
+    creating: false,
   },
   {
     name: "Instagram clone. (Back-end)",
@@ -26,14 +28,16 @@ export const myWork = [
     description:
       "The web site created for my friend's react exam. So I help him for back end.",
     gitHubLink: "https://github.com/Alisher009Nabijonov/Instagram",
+    creating: false,
   },
   {
-    name: "Dast images. (building...)",
+    name: "Dast images.",
     image: dastImage,
     description:
       "The web site making for show my skills and I really like this site design.",
     netlifyLink: "https://dast-pictures.netlify.app/",
     gitHubLink: "https://github.com/Muhammadali-fr/dast_client",
+    creating: true,
   },
 ];
 

@@ -21,7 +21,8 @@ function MyWorks() {
 
                 <ul className='grid grid-cols-1 sm:grid-cols-2 gap-5'>
                     {myWork.map((e, index) => (
-                        <li key={index} className='w-full border border-gray-300 bg-white rounded-lg overflow-hidden'>
+                        <li key={index} className='w-full border border-gray-300 bg-white rounded-lg overflow-hidden relative'>
+                            {e.creating && <p className='py-0 px-3 bg-black text-white absolute rounded-lg top-2 left-2'>creating...</p>}
                             <img className='w-full h-48 object-cover' src={e.image} alt={e.name} />
                             <div className='p-3 flex flex-col gap-2'>
                                 <p className='text-black font-bold'>{e.name}</p>
