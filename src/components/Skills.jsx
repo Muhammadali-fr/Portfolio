@@ -9,7 +9,7 @@ const Skills = () => {
                 {skills.map((item, index) => (
                     <div
                         key={index}
-                        className="cursor-pointer flex flex-col" 
+                        className="cursor-pointer flex flex-col"
                     >
                         <img
                             src={item.image}
