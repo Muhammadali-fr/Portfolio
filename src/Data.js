@@ -105,12 +105,12 @@ export const skills = [
   {
     name: "Node.js",
     image: nodeLogo,
-    learning: true,
+    learning: false,
   },
   {
     name: "MongoDB",
     image: mongodbLogo,
-    learning: true,
+    learning: false,
   },
 ];
 
