@@ -55,6 +55,8 @@ import telegramLogo from "./assets/telegram.svg";
 import instagramLogo from "./assets/instagram.svg";
 import nodeLogo from "./assets/nodejs.svg";
 import mongodbLogo from "./assets/mongodb.svg";
+import nestLogo from "./assets/icons/nest.svg";
+import nextLogo from "./assets/icons/next.svg";
 
 export const skills = [
   {
@@ -111,6 +113,16 @@ export const skills = [
     name: "MongoDB",
     image: mongodbLogo,
     learning: false,
+  },
+  {
+    name: "Nest JS",
+    image: nestLogo,
+    learning: true,
+  },
+  {
+    name: "Next JS",
+    image: nextLogo,
+    learning: true,
   },
 ];
 
