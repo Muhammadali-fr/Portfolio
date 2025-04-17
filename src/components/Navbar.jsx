@@ -47,7 +47,7 @@ function Navbar() {
                     </ul>
 
                     <a
-                        className="p-2 text-xl hover:bg-[#ebebeb]"
+                        className="p-2 text-xl hover:bg-[#ebebeb] rounded"
                         href="https://github.com/Muhammadali-fr"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -79,22 +79,22 @@ function Navbar() {
 
                         <ul className="space-y-4">
                             <li>
-                                <a href="#" onClick={closeSidebar} className="block py-3 px-4 rounded-lg text-lg hover:bg-gray-700 hover:text-white transition-all duration-300">
+                                <a href="#" onClick={closeSidebar} className="block py-3 px-4 rounded-lg text-lg hover:bg-gray-200 transition-all duration-300">
                                     Home
                                 </a>
                             </li>
                             <li>
-                                <a href="#work" onClick={closeSidebar} className="block py-3 px-4 rounded-lg text-lg hover:bg-gray-700 hover:text-white transition-all duration-300">
+                                <a href="#work" onClick={closeSidebar} className="block py-3 px-4 rounded-lg text-lg hover:bg-gray-200 transition-all duration-300">
                                     Work
                                 </a>
                             </li>
                             <li>
-                                <a href="#skills" onClick={closeSidebar} className="block py-3 px-4 rounded-lg text-lg hover:bg-gray-700 hover:text-white transition-all duration-300">
+                                <a href="#skills" onClick={closeSidebar} className="block py-3 px-4 rounded-lg text-lg hover:bg-gray-200 transition-all duration-300">
                                     Skills
                                 </a>
                             </li>
                             <li>
-                                <a href="#contact" onClick={closeSidebar} className="block py-3 px-4 rounded-lg text-lg hover:bg-gray-700 hover:text-white transition-all duration-300">
+                                <a href="#contact" onClick={closeSidebar} className="block py-3 px-4 rounded-lg text-lg hover:bg-gray-200 transition-all duration-300">
                                     Contact
                                 </a>
                             </li>
@@ -102,7 +102,7 @@ function Navbar() {
                     </div>
 
                     <div>
-                        <a href="https://github.com/Muhammadali-fr" target="_blank" rel="noopener noreferrer" className="block bg-blue-600 text-white py-3 px-4 rounded-lg text-center hover:bg-blue-700 transition-all duration-300">
+                        <a href="https://github.com/Muhammadali-fr" target="_blank" rel="noopener noreferrer" className="block bg-black text-white py-3 px-4 rounded-lg text-center hover:bg-black/90 transition-all duration-300">
                             Open my GitHub
                         </a>
                     </div>
