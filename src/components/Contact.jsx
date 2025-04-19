@@ -6,7 +6,6 @@ const ContactPage = () => {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
-        subject: "",
         message: "",
     });
 
@@ -24,7 +23,6 @@ const ContactPage = () => {
         const telegramMessage = `
             Name: ${formData.name}
             Email: ${formData.email}
-            Subject: ${formData.subject}
             Message: ${formData.message}
         `;
 
@@ -45,7 +43,6 @@ const ContactPage = () => {
                 setFormData({
                     name: "",
                     email: "",
-                    subject: "",
                     message: "",
                 });
             } else {
@@ -92,17 +89,6 @@ const ContactPage = () => {
                         fullWidth
                         margin="normal"
                         value={formData.email}
-                        onChange={handleChange}
-                        className="bg-[#ebebeb]"
-                    />
-                    <TextField
-                        required
-                        label="Subject"
-                        name="subject"
-                        variant="outlined"
-                        fullWidth
-                        margin="normal"
-                        value={formData.subject}
                         onChange={handleChange}
                         className="bg-[#ebebeb]"
                     />
