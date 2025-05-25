@@ -3,6 +3,7 @@ import delizImage from "./assets/delizi.png";
 import carScreamImage from "./assets/car-scream.png";
 import igImage from "./assets/ig_clone.png";
 import dastImage from "./assets/dast.png";
+import nunaImage from "./assets/nuna.png";
 
 export const myWork = [
   {
@@ -37,6 +38,14 @@ export const myWork = [
       "The web site making for show my skills and I really like this site design.",
     netlifyLink: "https://dast-pictures.netlify.app/",
     gitHubLink: "https://github.com/Muhammadali-fr/dast_client",
+    creating: false,
+  },
+  {
+    name: "Nuna",
+    image: nunaImage,
+    description:
+      "This social media created using Next Js and Nest Js, Also using redux for clean structure.",
+    gitHubLink: "https://github.com/nuna82",
     creating: true,
   },
 ];
@@ -57,6 +66,7 @@ import nodeLogo from "./assets/nodejs.svg";
 import mongodbLogo from "./assets/mongodb.svg";
 import nestLogo from "./assets/icons/nest.svg";
 import nextLogo from "./assets/icons/next.svg";
+import redux from "./assets/redux.svg";
 
 export const skills = [
   {
@@ -115,13 +125,18 @@ export const skills = [
     learning: false,
   },
   {
-    name: "Nest JS",
-    image: nestLogo,
-    learning: true,
+    name: "Redux",
+    image: redux,
+    learning: false,
   },
   {
     name: "Next JS",
     image: nextLogo,
+    learning: false,
+  },
+  {
+    name: "Nest JS",
+    image: nestLogo,
     learning: true,
   },
 ];
