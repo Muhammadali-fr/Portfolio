@@ -44,7 +44,7 @@ export const myWork = [
     name: "Nuna",
     image: nunaImage,
     description:
-      "This social media created using Next Js and Nest Js, Also using redux for clean structure.",
+      "This social media is creating using Next Js and Nest Js, Also using redux for clean structure.",
     gitHubLink: "https://github.com/nuna82",
     creating: true,
   },
