@@ -5,8 +5,8 @@ const Footer = () => {
     let year = date.getFullYear();
 
     return (
-        <footer className=" max-w-[90%] sm:w-[943px] mx-auto text-gray-700 py-10">
-            <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <footer className="w-full text-gray-700 py-5 bg-[#ebebeb]">
+            <div className="w-[90%] sm:max-w-[943px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 justify-between">
                 {/* Quick Links Section */}
                 <div>
                     <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
