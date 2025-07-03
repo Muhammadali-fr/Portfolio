@@ -31,7 +31,7 @@ function MyWorks() {
                                     {e.netlifyLink ? (<a
                                         href={e.netlifyLink}
                                     >
-                                        <button className="shadow hover:bg-gray-300 py-1 px-3 border flex items-center text-sm md:text-xl gap-2">
+                                        <button className="hover:bg-gray-200 py-1 px-3 border border-gray-200 rounded-lg text-gray-700 flex items-center text-sm md:text-xl gap-2">
                                             <IoLinkOutline /> Link
                                         </button>
                                     </a>) : (<p></p>)}
@@ -40,7 +40,7 @@ function MyWorks() {
                                         rel="noopener noreferrer"
                                         href={e.gitHubLink}
                                     >
-                                        <button className="shadow hover:bg-gray-300 py-1 px-3 border flex items-center text-sm md:text-xl gap-1">
+                                        <button className="hover:bg-gray-200 text-gray-700 py-1 px-3 border border-gray-200 rounded-lg flex items-center text-sm md:text-xl gap-1">
                                             <FiGithub /> GitHub
                                         </button>
                                     </a>
