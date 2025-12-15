@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body {
+    font-family: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@layer components {
+    .c-width {
+        max-width: 1024px;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .c-white {
+        background-color: #ffffff;
+    }
+
+    .c-blue {
+        background-color: #1c5d99;
+    }
+
+    .c-gray {
+        background-color: #f5f5f7cc;
+    }
+
+    .c-border-color {
+        border-color: #ededed;
+    }
+}
