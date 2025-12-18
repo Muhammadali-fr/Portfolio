@@ -5,7 +5,7 @@ export default function Header() {
     <header className="w-full border-b c-border-color c-gray">
             <div className="c-width  py-3 flex items-center justify-between ">
                 <p>Jamolov</p>
-                <ul className="flex items-center justify-center gap-5 font-[17px]">
+                <ul className="flex items-center justify-center gap-5 font-[19px]">
                     <li><Link href={"/"}>Home</Link></li>
                     <li><Link href={"/"}>Skills</Link></li>
                     <li><Link href={"/"}>Contact</Link></li>
