@@ -13,16 +13,16 @@ export default function TeammateImages() {
         <ul className="flex items-center justify-center">
             <li title="Hamidov Mardonbek">
                 <Link href={"/"}>
-                    <Image width={65} height={65} className="rounded-full object-cover object-center relative left-3" src={mardonbekLogoImage} alt="Mardonbek Khamidov" />
+                    <Image width={55} height={55} className="rounded-full object-cover object-center relative left-3" src={mardonbekLogoImage} alt="Mardonbek Khamidov" />
                 </Link>
             </li>
             <li title="me: Jamolov Muhammadali" className="z-2">
-                <Image width={75} height={75} className="rounded-full object-cover object-center" src={myLogoImage} alt="Jamolov Muhammadali" />
+                <Image width={65} height={65} className="rounded-full object-cover object-center" src={myLogoImage} alt="Jamolov Muhammadali" />
             </li>
 
             <li title="Boburov Shukurullo">
                 <Link target="_blank" href={"https://boburov.uz/"}>
-                    <Image width={65} height={65} className="rounded-full object-cover object-center relative right-3" src={shukurulloLogoImage} alt="Boburov Shukurullo" />
+                    <Image width={55} height={55} className="rounded-full object-cover object-center relative right-3" src={shukurulloLogoImage} alt="Boburov Shukurullo" />
                 </Link>
             </li>
         </ul>
