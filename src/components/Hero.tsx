@@ -8,7 +8,7 @@ export default function Hero() {
             <TeammateImages />
             <div className="flex flex-col items-center justify-center">
                 <p className="text-xl font-semibold">Jamolov Muhammadali</p>
-                <h1 className="text-7xl font-bold">Frontend Developer</h1>
+                <h1 className="text-6xl font-bold">Frontend Developer</h1>
 
             </div>
         </section>
