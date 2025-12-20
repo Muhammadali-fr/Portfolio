@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Jamolov Muhammadali — Web Developer",
+  title: "Jamolov",
   description:
     "Portfolio website of Jamolov Muhammadali, a Frontend & Full-Stack Web Developer specializing in React, Next.js, and modern web technologies.",
   icons: {
